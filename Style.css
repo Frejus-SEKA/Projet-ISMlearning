@@ -22,9 +22,11 @@ nav .profile {
      
 }
 nav .profile img {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
+    border: 2px solid;
+    border-color: #fff;
 }
 nav .profile h1 {
     margin-left: 10px;
@@ -38,9 +40,14 @@ nav ul li {
     margin-left: 20px;
     cursor: pointer;
     border-bottom: 2px solid #000;
+    
 }
 nav ul li:hover {
     border-bottom-color: #fff;
+}
+a {
+    text-decoration: none;
+    color: #fff;
 }
 .main-content {
     margin: 5%;
@@ -48,9 +55,10 @@ nav ul li:hover {
 }
 .main-content header {
     margin-top: 5%;
-    max-width: 80%;
+    max-width: 100%;
 }
 .main-content header h1 {
+    text-align: center;
     margin: 0;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
@@ -78,22 +86,13 @@ nav ul li:hover {
 .main-content .image-principale img {
     max-width: 100%;
     height: auto;
-    transition: filter 1s;
 }
 .main-content .partie1 {
     margin-top: 6%;
 }
 .main-content .partie1 .propos p {
     max-width: 900px;
-    position: relative;
-    left: 150px;
-    font-size: 20px;
     color: #000;
-}
-.main-content .partie1 #A-propos {
-    position: relative;
-    left: 400px;
-    margin: 0px;
 }
 .main-content .partie1 h2 {
     text-align: center;
@@ -155,7 +154,6 @@ nav ul li:hover {
 }
 .contact .formul .formulaire {
     max-width: 30%;
-    margin-left: 450px;
 }
 .contact .formul .formulaire .mail {
     margin-bottom: 6px;
@@ -170,7 +168,6 @@ nav ul li:hover {
     font-weight: bold;
     text-align: center;
     border-radius: 6px;
-    margin-left: 540px;
     margin-top: 8px;
 }
 .contact .formul button:hover {
@@ -185,6 +182,12 @@ footer {
     font-family: 'Times New Roman', Times, serif;
 }
 footer h6 {
+    max-width: 100%;
+    margin-bottom: 0px;
+    margin-right: 700px;
+    position: relative;
+    top: 35px;
+    left: 35px;
     font-size: 20px;
 }
 
@@ -192,14 +195,14 @@ footer p {
     max-width: 100%;
     text-align: center;
     font-weight: bold;
-} 
+}
 footer #title {
     float: right;
     font-weight: bold;
     position: relative;
-    bottom: 65px;
+    bottom: 35px;
     right: 35px;
-}
+} 
 footer .Red {
     color: #f04b4b;
 }
